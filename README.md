@@ -18,10 +18,14 @@ The Milk Rate Calculator is a web-based application designed to calculate milk p
 ### Clone the Repository:
 ```bash
 git clone https://github.com/t1war1-21/Milk_Rate_Calculator.git
-cd Milk_Rate_Calculator```
+cd Milk_Rate_Calculator
 
-###Create a Virtual Environment (Optional):
-```bash
+#Create a Virtual Environment (Optional):
 python -m venv venv
 source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
-```
+
+#Install Dependencies:
+pip install -r requirements.txt
+
+#Run the Application:
+python app.py
