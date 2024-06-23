@@ -13,14 +13,15 @@ The Milk Rate Calculator is a web-based application designed to calculate milk p
     - **index.html**: Template for the input form.
     - **result.html**: Template for displaying the results.
 
-
+```plaintext
 Milk_Rate_Calculator/
 ├── requirements.txt
 ├── app.py
 ├── rate_sheet.xlsx
-└── templates/  
-  ├── index.html
-  └── result.html
+└── templates/
+    ├── index.html
+    └── result.html
+```
 Create a root directory named Milk_Rate_Calculator inside this directory keep requirements.txt, app.py, rate_sheet.xlsx files.
 Now create a folder named templates inside the root folder Milk_Rate_Calculator and keep the files index.html and result.html inside the folder templates.
 ## Getting Started
